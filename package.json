@@ -31,7 +31,7 @@
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-stylelint": "^13.0.0",
-    "inquirer": "^7.1.0",
+    "inquirer": "^8.1.0",
     "juice": "^6.0.0",
     "mime": "^2.4.4",
     "stylelint": "^13.3.0"
