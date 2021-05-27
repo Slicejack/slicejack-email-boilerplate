@@ -14,7 +14,7 @@
 			"$": false,
 			"JSON": false,
 			"wp": false,
-			"Swiper": false,
+			"Swiper": false
 	},
 	"rules": {
 			"array-bracket-spacing": [ 2, "always" ],
