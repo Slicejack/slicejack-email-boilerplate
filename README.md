@@ -21,6 +21,8 @@ Full project documentation can be found at https://bojler.slicejack.com/.
 ## Quick-start guide 🚀
 Full getting started guide can be found [here](https://bojler.slicejack.com/documentation/getting-started/).
 
+
+
 ### 1. Download
 - [Download source files](https://github.com/Slicejack/bojler/archive/v4.1.6.zip) or
 - Clone the repo: `git clone https://github.com/Slicejack/bojler.git`
@@ -36,6 +38,20 @@ Run `npm start` in your project root folder.
 
 While your development server is running, every time you make and save changes they will be automatically compiled from `src/` to `dist/` folder.
 > [This is an example](https://asciinema.org/a/dtwO6MMKRYvTxFIOhVllHGxEK) of what you should get after you run `npm start` command and save some changes while your development server is running.
+
+### Alternatively you can get bojler up and running with docker
+If you want to build and test Bojler locally without having to deal with npm and gulp you can use the attached docker-compose file. It will build an image, which simulates all the steps bellow and will mount the source (src) and destination (dist) folder in order to copy the compiled content in the right place.
+
+```
+# to build use
+docker-compose up -d bojler_build 
+
+# to run use
+docker-compose up -d bojler_run
+
+# to build assets use
+docker-compose up -d bojler_assets
+```
 
 ### 4. Project configuration and files editing
 You’re ready to edit bojler configuration file in `src/sass/_settings.scss`.
