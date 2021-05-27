@@ -31,9 +31,8 @@
     "gulp-sass": "^4.1.0",
     "gulp-stylelint": "^13.0.0",
     "inquirer": "^7.3.3",
-    "juice": "^7.0.0",
+    "juice": "^8.0.0",
     "mime": "^2.4.6",
-    "node-sass": "^5.0.0",
     "stylelint": "^13.8.0"
   }
 }
