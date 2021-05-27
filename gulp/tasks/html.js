@@ -8,7 +8,7 @@ var juiceFn = require( 'juice' ).juiceResources;
 var config = require( '../config.js' );
 
 // Juice gulp wrapper
-var juice = function( options ) {
+function juice( options ) {
 	options = options || {};
 	return es.map( function( file, fn ) {
 		juiceFn( file.contents.toString(), options, function( err, html ) {
@@ -20,14 +20,10 @@ var juice = function( options ) {
 			fn( null, file );
 		} );
 	} );
-};
-
-// Export functions
-exports.inline = inline;
-exports.clean = clean;
+}
 
 // Inline CSS
-function inline() {
+exports.inline = function inline() {
 	return gulp.src( config.paths.html.inline.src )
 		.pipe( juice( {
 			applyHeightAttributes: false,
@@ -45,7 +41,7 @@ function inline() {
 }
 
 // Clean HTML
-function clean() {
+exports.clean = function clean() {
 	return gulp.src( config.paths.html.clean.src )
 		.pipe( htmlmin( config.paths.html.clean.options ) )
 		.pipe( gulp.dest( config.paths.html.clean.dest ) )
