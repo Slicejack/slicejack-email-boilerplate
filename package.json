@@ -20,8 +20,7 @@
     "assets": "npm run gulp assets"
   },
   "devDependencies": {
-    "debug": "^4.1.1",
-    "del": "^5.1.0",
+    "del": "^6.0.0",
     "event-stream": "^4.0.1",
     "fresh": "^0.5.2",
     "gulp": "^4.0.2",
@@ -29,11 +28,12 @@
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-htmlmin": "^5.0.1",
     "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-stylelint": "^13.0.0",
-    "inquirer": "^7.1.0",
-    "juice": "^6.0.0",
-    "mime": "^2.4.4",
-    "stylelint": "^13.3.0"
+    "inquirer": "^7.3.3",
+    "juice": "^7.0.0",
+    "mime": "^2.4.6",
+    "node-sass": "^5.0.0",
+    "stylelint": "^13.8.0"
   }
 }

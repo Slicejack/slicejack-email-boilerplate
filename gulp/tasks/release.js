@@ -9,12 +9,8 @@ var config = require( '../config.js' );
 var currentVersion = require( '../../package.json' ).version;
 var nextVersion;
 
-// Export functions
-exports.prompt = prompt;
-exports.version = version;
-
 // Security check, asking for new version number
-function prompt( callback ) {
+exports.prompt = function prompt( callback ) {
 	inquirer.prompt( [
 		{
 			type: 'confirm',
@@ -52,7 +48,7 @@ function prompt( callback ) {
 }
 
 // Bumps the version number in any file that has one
-function version() {
+exports.version = function version() {
 	return gulp.src( config.paths.release.versionedFiles, { base: process.cwd() } )
 		.pipe( replace( currentVersion, nextVersion ) )
 		.pipe( gulp.dest( '.' ) );

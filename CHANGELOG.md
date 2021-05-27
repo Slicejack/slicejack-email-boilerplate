@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [5.0.0] - 2020-11-23
+### Changed
+- Updated gulp tasks
+- Updated `juice` to `v7.0.0`
+- Updated `node-sass` to `v5.0.0`
+
+### Removed
+- Dropped support for node 8.x, please install node 10.x or higher
+
 ## [4.1.6] - 2021-05-27
 ### Fixed
 - Fixed all npm security issues.
