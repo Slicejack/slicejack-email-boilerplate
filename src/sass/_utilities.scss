@@ -45,32 +45,22 @@
 }
 
 @media (max-width: $breakpoint-mobile) {
-	.block\:sm,
-	.block\@sm,
 	.block-sm {
 		display: block !important;
 	}
 
-	.table\:sm,
-	.table\@sm,
 	.table-sm {
 		display: table !important;
 	}
 
-	.table-row\:sm,
-	.table-row\@sm,
 	.table-row-sm {
 		display: table-row !important;
 	}
 
-	.table-cell\:sm,
-	.table-cell\@sm,
 	.table-cell-sm {
 		display: table-cell !important;
 	}
 
-	.hidden\:sm,
-	.hidden\@sm,
 	.hidden-sm {
 		display: none !important;
 	}
@@ -120,20 +110,14 @@
 }
 
 @media (max-width: $breakpoint-mobile) {
-	.text-left\:sm,
-	.text-left\@sm,
 	.text-left-sm {
 		text-align: left !important;
 	}
 
-	.text-center\:sm,
-	.text-center\@sm,
 	.text-center-sm {
 		text-align: center !important;
 	}
 
-	.text-right\:sm,
-	.text-right\@sm,
 	.text-right-sm {
 		text-align: right !important;
 	}
@@ -267,8 +251,6 @@
 
 	@each $spacer-key, $spacer-value in $spacers {
 		@if $spacer-key != 'auto' {
-			.p-#{$spacer-key}\:sm,
-			.p-#{$spacer-key}\@sm,
 			.p-#{$spacer-key}-sm {
 				padding-top: $spacer-value !important;
 				padding-right: $spacer-value !important;
@@ -280,15 +262,11 @@
 		@each $spacing-side-key, $spacing-side-value in $spacing-sides {
 			@if $spacer-key != 'auto' {
 				@if $spacing-side-key == 'horizontal' {
-					.p#{$spacing-side-value}-#{$spacer-key}\:sm,
-					.p#{$spacing-side-value}-#{$spacer-key}\@sm,
 					.p#{$spacing-side-value}-#{$spacer-key}-sm {
 						padding-right: $spacer-value !important;
 						padding-left: $spacer-value !important;
 					}
 				} @else {
-					.p#{$spacing-side-value}-#{$spacer-key}\:sm,
-					.p#{$spacing-side-value}-#{$spacer-key}\@sm,
 					.p#{$spacing-side-value}-#{$spacer-key}-sm {
 						padding-#{$spacing-side-key}: $spacer-value !important;
 					}
@@ -304,8 +282,6 @@
 	@each $spacing-side-key, $spacing-side-value in $spacing-sides {
 		@each $spacer-key, $spacer-value in $spacers {
 			@if $spacing-side-key == 'horizontal' {
-				.m#{$spacing-side-value}-#{$spacer-key}\:sm,
-				.m#{$spacing-side-value}-#{$spacer-key}\@sm,
 				.m#{$spacing-side-value}-#{$spacer-key}-sm {
 					margin-right: $spacer-value !important;
 					margin-left: $spacer-value !important;
