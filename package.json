@@ -1,6 +1,6 @@
 {
   "name": "@slicejack/bojler",
-  "version": "4.1.6",
+  "version": "5.0.0",
   "description": "Bojler is an email framework for developing responsive and lightweight email templates that will render correctly across each of the most popular email clients.",
   "homepage": "https://bojler.slicejack.com",
   "bugs": {
