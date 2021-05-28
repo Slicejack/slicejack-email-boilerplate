@@ -1,4 +1,4 @@
-![Bojler Heading](https://bojler.slicejack.com/wp-content/uploads/2018/09/bojler-title-2.png "Bojler")
+![Bojler Heading](https://bojler.slicejack.com/wp-content/uploads/2021/05/bojler-title.png "Bojler")
 
 [![GitHub release](https://img.shields.io/github/release/slicejack/bojler.svg)](https://github.com/Slicejack/bojler/releases)
 [![Travis](https://travis-ci.org/Slicejack/bojler.svg?branch=master)](https://travis-ci.org/Slicejack/bojler)
