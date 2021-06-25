@@ -28,7 +28,7 @@
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-htmlmin": "^5.0.1",
     "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.0.0",
     "gulp-stylelint": "^13.0.0",
     "inquirer": "^8.1.0",
     "juice": "^8.0.0",
